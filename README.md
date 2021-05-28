@@ -86,7 +86,7 @@ Once you have done this, write a `main` method that does the following:
 * Creates Satellite A, which is `10000 km` above the centre of the earth, with a velocity of `55 mps` and at `θ = 122`.
 * Creates Satellite B, which is `5438 km` above the centre of the earth, with a velocity of `234 mps` and at `θ = 0`.
 * Creates Satellite C, which is `9029 km` above the centre of the earth, with a velocity of `0 mps` and at `θ = 284`.
-* For Satellite A, print out `I am {name} at postition {theta} degrees, {height} km above the centre of the earth and moving at a velocity of {velocity} metres per second`
+* For Satellite A, print out `I am {name} at position {theta} degrees, {height} km above the centre of the earth and moving at a velocity of {velocity} metres per second`
 * Change Satellite A's height to `9999`
 * Change Satellite B's angle to `45`
 * Change Satellite C's velocity to `36.5 mps`
@@ -97,7 +97,7 @@ Once you have done this, write a `main` method that does the following:
 ### Expected Output
 
 ```
-I am Satellite A at position 55.0 degrees, 10000 km bove the centre of the earth and moving at a velocity of 122.0 metres per second
+I am Satellite A at position 55.0 degrees, 10000 km above the centre of the earth and moving at a velocity of 122.0 metres per second
 0.9599310885968813
 0.0
 4380.0
@@ -162,7 +162,7 @@ You can put in debugging print statements by using `System.err.println("message"
 
 <img src="junit.png" />
 
-## Lab 01 - Challenge Exercise - Scrabble Subwords (3 points)
+## Lab 01 - Challenge Exercise - Scrabble Subwords
 
 A new version of the popular board game [Scrabble](https://en.wikipedia.org/wiki/Scrabble) is coming out soon, and they want you to write a program to calculate the score for a word on the board.
 
