@@ -23,7 +23,7 @@ You will need to log in with your zID and zPass. If you are unable to login plea
 * [Git Setup](git.md)
 * [Java Setup](java_setup.md)
 
-## Lab 01 - Exercise - Average
+## Lab 01 - Exercise - Average 🔢
 
 A class is similar to a struct in the C language in that it stores related data in fields, where the fields can be different types.
 
@@ -44,7 +44,7 @@ A class is similar to a struct in the C language in that it stores related data 
 
 5. Assign the result of this method to a variable and print the variable
 
-## Lab 01 - Exercise - Splitter
+## Lab 01 - Exercise - Splitter 🍌
 
 Modify `Splitter.java` in the examples package such that it reads from `System.in` a line consisting of words separated by a space and prints out the individual words in the string e.g.,
 
@@ -63,7 +63,7 @@ Program
 
 Once completed commit and push your changes.
 
-## Lab 01 - Exercise - Satellite
+## Lab 01 - Exercise - Satellite 🛰️
 
 A satellite is a moon, planet or machine that orbits a planet or star. In this exercise, you will create an class that represents a satellite, and using this class create a series of Satellite object instances.
 
@@ -86,7 +86,7 @@ Once you have done this, write a `main` method that does the following:
 * Creates Satellite A, which is `10000 km` above the centre of the earth, with a velocity of `55 mps` and at `θ = 122`.
 * Creates Satellite B, which is `5438 km` above the centre of the earth, with a velocity of `234 mps` and at `θ = 0`.
 * Creates Satellite C, which is `9029 km` above the centre of the earth, with a velocity of `0 mps` and at `θ = 284`.
-* For Satellite A, print out `I am {name} at postition {theta} degrees, {height} km above the centre of the earth and moving at a velocity of {velocity} metres per second`
+* For Satellite A, print out `I am {name} at position {theta} degrees, {height} km above the centre of the earth and moving at a velocity of {velocity} metres per second`
 * Change Satellite A's height to `9999`
 * Change Satellite B's angle to `45`
 * Change Satellite C's velocity to `36.5 mps`
@@ -97,7 +97,7 @@ Once you have done this, write a `main` method that does the following:
 ### Expected Output
 
 ```
-I am Satellite A at position 55.0 degrees, 10000 km bove the centre of the earth and moving at a velocity of 122.0 metres per second
+I am Satellite A at position 55.0 degrees, 10000 km above the centre of the earth and moving at a velocity of 122.0 metres per second
 0.9599310885968813
 0.0
 4380.0
@@ -123,7 +123,7 @@ this.name = name;
 
 4. The formula for conversion between linear and angular velocity is `linear velocity = radius * angular velocity`.
 
-## Lab 01 - Exercise - Pineapple on Piazza
+## Lab 01 - Exercise - Pineapple on Piazza 🍕
 
 In this exercise you are going to (start to) implement your own forum! This week you'll complete a simplified version of the program that involves two classes interacting with one another.
 
@@ -162,7 +162,7 @@ You can put in debugging print statements by using `System.err.println("message"
 
 <img src="junit.png" />
 
-## Lab 01 - Challenge Exercise - Scrabble Subwords (3 points)
+## Lab 01 - Challenge Exercise - Scrabble Subwords 📚
 
 A new version of the popular board game [Scrabble](https://en.wikipedia.org/wiki/Scrabble) is coming out soon, and they want you to write a program to calculate the score for a word on the board.
 
