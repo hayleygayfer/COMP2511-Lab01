@@ -23,7 +23,7 @@ public class Thread {
     }
 
     /**
-     * @return A SORTED list of unique tags
+     * @return A SORTED list of tags
      */
     public List<String> getTags() {
         return null;
