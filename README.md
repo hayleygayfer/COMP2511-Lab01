@@ -83,9 +83,9 @@ Satellites have the following attributes/characteristics:
 You have been given a series of function definitions inside `src/satellite/Satellite.java`. Implement these functions according to the docstrings and above requirements.
 
 Once you have done this, write a `main` method that does the following:
-* Creates Satellite A, which is `10000 km` above the centre of the earth, with a velocity of `55 mps` and at `θ = 122`.
-* Creates Satellite B, which is `5438 km` above the centre of the earth, with a velocity of `234 mps` and at `θ = 0`.
-* Creates Satellite C, which is `9029 km` above the centre of the earth, with a velocity of `0 mps` and at `θ = 284`.
+* Creates Satellite A, which is `10000 km` above the centre of the earth, with a velocity of `55` metres per second and at `θ = 122`.
+* Creates Satellite B, which is `5438 km` above the centre of the earth, with a velocity of `234` metres per second and at `θ = 0`.
+* Creates Satellite C, which is `9029 km` above the centre of the earth, with a velocity of `0` metres per second and at `θ = 284`.
 * For Satellite A, print out `I am {name} at position {theta} degrees, {height} km above the centre of the earth and moving at a velocity of {velocity} metres per second`
 * Change Satellite A's height to `9999`
 * Change Satellite B's angle to `45`
@@ -97,9 +97,9 @@ Once you have done this, write a `main` method that does the following:
 ### Expected Output
 
 ```
-I am Satellite A at position 55.0 degrees, 10000 km above the centre of the earth and moving at a velocity of 122.0 metres per second
-0.9599310885968813
-0.0
+I am Satellite A at position 122.0 degrees, 10000 km bove the centre of the earth and moving at a velocity of 55.0 metres per second
+2.129301687433082
+0.04303052592865024
 4380.0
 ```
 
@@ -121,7 +121,7 @@ this.name = name;
 
 3. You can convert between degrees and radians using `Math.toDegrees(theta)` and `Math.toRadians(theta)`.
 
-4. The formula for conversion between linear and angular velocity is `linear velocity = radius * angular velocity`.
+4. The formula for conversion between linear and angular velocity is `linear velocity = radius * angular velocity` i.e. `angular velocity = linear velocity / radius`. Think about what the 'radius' is here!
 
 ## Lab 01 - Exercise - Pineapple on Piazza 🍕
 
