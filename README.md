@@ -146,7 +146,7 @@ We have designed an object-oriented solution to the following requirements, with
 
 * A `Thread` is created with a title, and a first post;
 * Posts can be added to the thread
-* A `Thread` has a series of tags, which are just strings.
+* A `Thread` has a series of tags, which are just strings.  These tags should be retrieved in a sorted fashion (as per the documentation on `getTags`).
 
 **`PiazzaForum`**
 
