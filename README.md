@@ -123,7 +123,7 @@ this.name = name;
 
 4. The formula for conversion between linear and angular velocity is `linear velocity = radius * angular velocity` i.e. `angular velocity = linear velocity / radius`. Think about what the 'radius' is here!
 
-## Lab 01 - Exercise - Pineapple on Piazza 🍕
+## Lab 01 - Challenge Exercise - Pineapple on Piazza 🍕
 
 In this exercise you are going to (start to) implement your own forum! This week you'll complete a simplified version of the program that involves two classes interacting with one another.
 
