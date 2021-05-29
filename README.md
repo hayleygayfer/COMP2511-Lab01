@@ -6,12 +6,13 @@
 
 ## Changelog
 
-- Sat 29/5 5-5:30pm:
+- Sat 29/5 5:30pm:
   - Added some emoji's
   - Fixed up the expected output of the Satellite exercise and clarified some of the instructions
   - Pineapple on Piazza is now correctly marked as a challenge exercise
 - Sat 29/5 9:30pm:
   - Fixed Pineapple on Piazza Test
+  - Clarified specification that Thread tags should be sorted.
 
 ## Aims
 
