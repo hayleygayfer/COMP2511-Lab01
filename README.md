@@ -97,7 +97,7 @@ Once you have done this, write a `main` method that does the following:
 ### Expected Output
 
 ```
-I am Satellite A at position 122.0 degrees, 10000 km bove the centre of the earth and moving at a velocity of 55.0 metres per second
+I am Satellite A at position 122.0 degrees, 10000 km above the centre of the earth and moving at a velocity of 55.0 metres per second
 2.129301687433082
 0.04303052592865024
 4380.0
