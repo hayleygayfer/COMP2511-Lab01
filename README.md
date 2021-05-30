@@ -15,6 +15,8 @@
   - Clarified specification that Thread tags should be sorted.
 - Sun 30/5 2pm:
   - Fixed up satellite specification making it specify `km/s` for Satellites B's speed
+- Sunday 30/5 9pm:
+  - Added JUnit section for those running this at home.
 
 ## Aims
 
