@@ -13,6 +13,8 @@
 - Sat 29/5 9:30pm:
   - Fixed Pineapple on Piazza Test
   - Clarified specification that Thread tags should be sorted.
+- Sun 30/5 2pm:
+  - Fixed up satellite specification making it specify `km/s` for Satellites B's speed
 
 ## Aims
 
@@ -94,7 +96,7 @@ You have been given a series of function definitions inside `src/satellite/Satel
 
 Once you have done this, write a `main` method that does the following:
 * Creates Satellite A, which is `10000 km` above the centre of the earth, with a velocity of `55` metres per second and at `θ = 122`.
-* Creates Satellite B, which is `5438 km` above the centre of the earth, with a velocity of `234` metres per second and at `θ = 0`.
+* Creates Satellite B, which is `5438 km` above the centre of the earth, with a velocity of `234` **kilometres** per second and at `θ = 0`.
 * Creates Satellite C, which is `9029 km` above the centre of the earth, with a velocity of `0` metres per second and at `θ = 284`.
 * For Satellite A, print out `I am {name} at position {theta} degrees, {height} km above the centre of the earth and moving at a velocity of {velocity} metres per second`
 * Change Satellite A's height to `9999`
