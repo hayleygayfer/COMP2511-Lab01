@@ -174,6 +174,14 @@ You can put in debugging print statements by using `System.err.println("message"
 
 <img src="junit.png" />
 
+#### Installing JUnit 5 on your own computer
+
+You will need to download the JUnit 5 Platform Console Standalone JAR, from the Maven repository (or another repository), and place it into the lib directory. The link to the Maven repository for this is (download by clicking the link "jar (2.1 MB)" next to "Files"):
+
+https://mvnrepository.com/artifact/org.junit.platform/junit-platform-console-standalone/1.7.0-M1
+
+Note that by installing the Java Extension Pack extension in VSCode as required, you will have installed the Java Test Runner extension to run tests with clickable "Run Test" links in the files.
+
 ## Lab 01 - Challenge Exercise - Scrabble Subwords 📚
 
 A new version of the popular board game [Scrabble](https://en.wikipedia.org/wiki/Scrabble) is coming out soon, and they want you to write a program to calculate the score for a word on the board.
