@@ -15,6 +15,8 @@
   - Clarified specification that Thread tags should be sorted.
 - Sun 30/5 2pm:
   - Fixed up satellite specification making it specify `km/s` for Satellites B's speed
+- Sunday 30/5 9pm:
+  - Added JUnit section for those running this at home.
 
 ## Aims
 
@@ -173,6 +175,14 @@ You can run the tests by clicking on `PiazzaTest.java` in the VSCode project, an
 You can put in debugging print statements by using `System.err.println("message");`, and these can be viewed in the `Debug Console` on VSCode.
 
 <img src="junit.png" />
+
+#### Installing JUnit 5 on your own computer
+
+You will need to download the JUnit 5 Platform Console Standalone JAR, from the Maven repository (or another repository), and place it into the lib directory. The link to the Maven repository for this is (download by clicking the link "jar (2.1 MB)" next to "Files"):
+
+https://mvnrepository.com/artifact/org.junit.platform/junit-platform-console-standalone/1.7.0-M1
+
+Note that by installing the Java Extension Pack extension in VSCode as required, you will have installed the Java Test Runner extension to run tests with clickable "Run Test" links in the files.
 
 ## Lab 01 - Challenge Exercise - Scrabble Subwords 📚
 
