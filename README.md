@@ -17,6 +17,8 @@
   - Fixed up satellite specification making it specify `km/s` for Satellites B's speed
 - Sunday 30/5 9pm:
   - Added JUnit section for those running this at home.
+- Tuesday 1/6 2pm:
+  - Fixed a small typo
 
 ## Aims
 
@@ -168,7 +170,7 @@ List<String> shoppingCart = new ArrayList<String>();
 
 ### Testing
 
-We have provided some a complete suite of tests for you. You will need the Java Test Runner installed to be able to run the JUnit testes.
+We have provided a complete suite of tests for you. You will need the Java Test Runner installed to be able to run the JUnit tests.
 
 You can run the tests by clicking on `PiazzaTest.java` in the VSCode project, and then clicking on `Run Test` under the test class or individual function. Don't worry too much about how these tests work for now - you just need to get them passing.
 
