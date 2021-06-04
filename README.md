@@ -222,8 +222,8 @@ Problem sourced from Grok Learning NCSS Challenge (Advanced), 2016.
 To submit, make a tag to show that your code at the current commit is ready for your submission using the command:
 
 ```bash
-$ git tag -fa submission
-$ git push origin submission
+$ git tag -fa submission -m "Submission for Lab-01"
+$ git push -f origin submission
 ```
 
 Or, you can create one via the GitLab website by going to `Repository > Tags > New Tag`. 

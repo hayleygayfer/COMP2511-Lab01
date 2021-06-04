@@ -266,7 +266,3 @@ To fix the conflict you created:
 1. Open the `HelloWorld.java` file and decide which change you want to keep
 2. Remove the merge conflict syntax
 3. Add, commit and push the resolved merge conflict
-
-### Testing
-
-Checkout `master` and merge `first_new_branch` back into it. You can now run the `test_git.sh` file to check whether you have done most of the git exercises.
