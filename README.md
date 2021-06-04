@@ -194,7 +194,7 @@ In this new version of Scrabble, instead of the score for a word placement being
 
 The definition of a subword is recursive: a subword is constructed by removing one letter from a word. For a subword to be valid, it must bein our dictionary and have at least 2 letters. The subwords for a word should only be recursively generated if the word itself is a valid subword.
 
-Let's have a look at an example. The six subwords for the word lion are `ion`, `'lin`, `in`, `io`, `li` and `on`. (in our dictionary), and so the final score is `7`. Note that even though `lo` is made up of the letters of `lion` and is valid dictionary word, it is not counted because there is not path of subwords  from `lion` to `lo`. 
+Let's have a look at an example. The six subwords for the word lion are `ion`, `lin`, `in`, `io`, `li` and `on`. (in our dictionary), and so the final score is `7`. Note that even though `lo` is made up of the letters of `lion` and is valid dictionary word, it is not counted because there is not path of subwords  from `lion` to `lo`. 
 
 Inside `Scrabble.java`, your `Scrabble` class should have a constructor that takes in a word, and a method `score` which returns the score for the word. 
 
