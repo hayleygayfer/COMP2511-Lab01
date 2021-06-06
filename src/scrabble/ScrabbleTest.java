@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class ScrabbleTest {
-    /*@Test
+    @Test
     public void testDocumentation1() {
         Scrabble s1 = new Scrabble("lion");
         assertEquals(7, s1.score());
@@ -36,5 +36,5 @@ public class ScrabbleTest {
     public void testScrabble() {
         Scrabble s = new Scrabble("scrabble");
         assertEquals(11, s.score());
-    }*/
+    }
 }
