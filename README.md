@@ -32,7 +32,7 @@
 
 An individual repository for you for this lab has been created for you on the CSE GitLab server. You can find it at this URL (substituting z5555555 for your own zID):
 
-https://gitlab.cse.unsw.edu.au/z5555555/21T2-cs2511-lab01
+https://gitlab.cse.unsw.edu.au/COMP2511/21T2/students/z5555555/21T2-cs2511-lab01
 
 You will need to log in with your zID and zPass. If you are unable to login please speak to your tutor or lab assistant.
 
@@ -194,7 +194,7 @@ In this new version of Scrabble, instead of the score for a word placement being
 
 The definition of a subword is recursive: a subword is constructed by removing one letter from a word. For a subword to be valid, it must bein our dictionary and have at least 2 letters. The subwords for a word should only be recursively generated if the word itself is a valid subword.
 
-Let's have a look at an example. The six subwords for the word lion are `ion`, `'lin`, `in`, `io`, `li` and `on`. (in our dictionary), and so the final score is `7`. Note that even though `lo` is made up of the letters of `lion` and is valid dictionary word, it is not counted because there is not path of subwords  from `lion` to `lo`. 
+Let's have a look at an example. The six subwords for the word lion are `ion`, `lin`, `in`, `io`, `li` and `on`. (in our dictionary), and so the final score is `7`. Note that even though `lo` is made up of the letters of `lion` and is valid dictionary word, it is not counted because there is not path of subwords  from `lion` to `lo`. 
 
 Inside `Scrabble.java`, your `Scrabble` class should have a constructor that takes in a word, and a method `score` which returns the score for the word. 
 
@@ -222,7 +222,8 @@ Problem sourced from Grok Learning NCSS Challenge (Advanced), 2016.
 To submit, make a tag to show that your code at the current commit is ready for your submission using the command:
 
 ```bash
-$ git tag -a submission
+$ git tag -fa submission -m "Submission for Lab-01"
+$ git push -f origin submission
 ```
 
 Or, you can create one via the GitLab website by going to `Repository > Tags > New Tag`. 
