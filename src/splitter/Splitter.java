@@ -15,5 +15,6 @@ public class Splitter {
         for (int i = 0; i < split.length; i++) {
             System.out.println(split[i]);
         }
+        sc.close();
     }
 }

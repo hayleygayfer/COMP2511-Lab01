@@ -12,5 +12,5 @@ public class Scrabble {
             "heat", "heater", "heath", "heather", "heathery", "het", "in", "io", "ion", "li", "lin", "lion", "on",
             "program", "ra", "rad", "re", "rea", "read", "red", "sa", "sat", "scabble", "scrabble", "se", "sea", "seat",
             "seathe", "set", "seth", "sh", "sha", "shat", "she", "shea", "sheat", "sheath", "sheathe", "sheather",
-            "sheathery", "sheth", "st", "te"));
+            "sheathery", "sheth", "st", "te")); 
 }

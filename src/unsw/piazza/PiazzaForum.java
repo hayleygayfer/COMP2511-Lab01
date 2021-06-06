@@ -1,37 +1,46 @@
 package unsw.piazza;
 
 import java.util.List;
+import java.util.ArrayList;
 
 /**
  * A Piazza Forum 
  * 
- * @author Your Name
+ * @author Hayley Gayfer
  */
 public class PiazzaForum {
+
+    private String className;
+    private ArrayList<Thread> threads;
     
     /**
      * Initialises the new PiazzaForum with the given group name
      */
-    public PiazzaForum(String className) {}
+    public PiazzaForum(String className) {
+        this.className = className;
+        threads = new ArrayList<Thread>();
+    }
 
     /**
      * @return The name of the forum
      */
     public String getName() {
-        return null;
+        return className;
     }
 
     /**
      * Sets the name of the group of the Forum
      * @param name
      */
-    public void setName(String name) {}
+    public void setName(String name) {
+        className = name;
+    }
 
     /**
      * Returns a list of Threads in the Forum, in the order that they were published
      */
     public List<Thread> getThreads() {
-        return null;
+        return threads;
     }
 
     /**
@@ -43,7 +52,9 @@ public class PiazzaForum {
      * @param content
      */
     public Thread publish(String title, String content) {
-        return null;
+        Thread newThread = new Thread(title, content);
+        threads.add(newThread);
+        return newThread;
     }
 
     /**
@@ -53,7 +64,11 @@ public class PiazzaForum {
      * @return
      */
     public List<Thread> searchByTag(String tag) {
-        return null;
+        ArrayList<Thread> matchingThreads = new ArrayList<Thread>();
+        for (int i = 0; i < threads.size(); i++) {
+            if (threads.get(i).getTags().contains(tag)) matchingThreads.add(threads.get(i));
+        }
+        return matchingThreads;
     }
 
 }
